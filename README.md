@@ -1,24 +1,25 @@
 # Layer2Rand
 A layer2 randomness generator for blockchain with high efficiency and security
 
-The purpose of this respository is to
+## The purpose of this respository is to
 - show how layer2 randomness can be achieved with light computation and communication overhead, without involving third-party
 - high security with misbehavior being punished with blockchain smart contracts
 - high randmoness proven with NIST random test suite
 - completely no degraded user experience
 - better with p2p channels such as lighting network 
 
-What it can be used for?
+## What it can be used for?
 - fair games with verifiable randomness
 - any game involving dices such as backgammon
 - any game with p2p or multiplayer fighting such as League of Legends
 - not suitable for games with contrainted rules such as Texas Hold'em, for such scenarios, see my another project
 
-What's not included
+## What's not included
 - the game logic, which can be various and indpendent of this layer
 - the blockchain smart contract, which is related to the game logic 
 
-Test samples
+## Test samples
+```console
 randomly generate two private keys!
 user1-sk1: 5f2d370cf5f3abbee5314ca212761a3480cca89bb08ba98b5662a4370722baaa86cd3f82b1c9d9885658e3de02f0a0932e9e
 user2-sk2: b1de9d7895d37e899d372cd0d0b5b0f86ff88bbece08e751f90727708349305cae9c856f89ab6a96c4e26a5f7a6c33c94331
@@ -64,3 +65,4 @@ msg: DFFB40DEB5A9F7145D6E65D61F0E23CFAD9FAABF713D336124578DA07CE7CEBB
 pk: 028AA0C47866EC31CAFE9158633B30F4089748D173D751048DDE6636299348B2F3 
 proof: 03D68CB5C3805333AC0BDB4DB4899F711420BC5D61B0033E7F13EB1C429D58F3F65095649621756FEDDAA934102DD201E05A2A729FA358E35007172CB765B31A0AF1B8DF76225F5F490C655497F24670A2
 verfication result: valid = true
+```
